@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - 完善自带模板的更新问题
 
+## 0.0.5 - 2018-03-07
+
+### Changed
+
+- GameEvent模板调用后自动打开文件
+
 ## 0.0.4 - 2018-03-07
 
 ### Fixed
