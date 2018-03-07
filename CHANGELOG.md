@@ -8,6 +8,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - 完善自带模板的更新问题
 
+## 0.0.4 - 2018-03-07
+
+### Fixed
+
+- 修复GameEvent模板格式问题
+- 修复对话框模板生成失败问题
+- 修复同一行内多个存在模板字段时生成失败问题
+
 ## 0.0.3 - 2018-03-07
 
 ### Added
