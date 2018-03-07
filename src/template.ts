@@ -40,7 +40,7 @@ export class Template implements vscode.QuickPickItem {
         if(!this._params){
             this._params = {};
             for(let f of this.templateFiles){
-                let regexp:RegExp = /\{__(\S+)__\.?[^{}]*\}/mg;
+                let regexp:RegExp = /\{__([^{}]+)__\.?[^{}]*\}/mg;
                 let content:string = f.originContent;
                 let result:string[];
                 while((result = regexp.exec(content))!== null){

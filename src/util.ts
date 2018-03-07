@@ -13,7 +13,7 @@ import env from './environment';
 export function convert(content: string, ignore_variables?: boolean): string {
     return content.replace(
         ///\{__(name|email|author|link|date|delete|camelCaseName|pascalCaseName|snakeCaseName|kebabCaseName|lowerDotCaseName)__\.?([^{}]*)\}/g,
-        /\{__(\S+)__\.?([^{}]*)\}/g,
+        /\{__([^{}]+)__\.?([^{}]*)\}/g,
         (_, key, description) => (!ignore_variables ? env.fields[key] || '' : description)
     )
 }
@@ -21,7 +21,7 @@ export function convert(content: string, ignore_variables?: boolean): string {
 export function convertM(content:string, nParams:any= {"c":{}, "d":{}, "p":{}, "k":{}, "s":{}, "u":{} }):string{
     let params = env.custom, config = env.config, fields = env.fields;
     return content.replace(
-        /\{__(\S+)__\.?([^{}]*)\}/g,
+        /\{__([^{}]+)__\.?([^{}]*)\}/g,
         (s, key, description):string => {
             let value = config.get('fields.' + key) || fields[key] || params[key] || '';
             if(typeof description === 'string' && description.length === 1){
