@@ -1,0 +1,14 @@
+.vscode/**
+.vscode-test/**
+out/test/**
+test/**
+src/**
+**/*.map
+.gitignore
+.gitcommit
+.editorconfig
+.gitmodules
+tsconfig.json
+tslint.json
+templates/.*
+vsc-extension-quickstart.md
