@@ -14,13 +14,13 @@
 
 ### - 打开模板文件夹
 
-* `ctrl`+`shift`+`p`打开命令输入框
+* <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd>打开命令输入框
 * 输入并选择命令`Template: Open Temlates Folder`
 * 确认后编辑器会用新的窗口打开模板文件夹
 
 ### - 调用模板命令
 
-* `ctrl`+`shift`+`p`打开命令输入框
+* <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd>打开命令输入框
 * 输入并选择命令`Files: Auto Run Template Command`
 * 选择调用的模板文件
 * 根据提示的模板字段名, 逐个输入模板字段相应的替代内容
