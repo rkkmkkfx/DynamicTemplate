@@ -115,7 +115,7 @@ export class CMD_{__CommandName__.u} extends Command
 
 ```
 
-### Insert
+#### Insert
 
 用于往现有文件插入添加内容
 
@@ -145,7 +145,7 @@ import { CMD_{__CommandName__.u} } from '../commands/CMD_{__CommandName__.u}';
 //===ACMD===
 ```
 
-### Open
+#### Open
 
 一般用于模板文件的最后, 打开并显示指定的文件.
 
@@ -172,10 +172,6 @@ src/public/commands/CMD_{__CommandName__.u}.ts
 * `templateGenerator.fields.author` : 配置字段: author
 * `templateGenerator.fields.email` : 配置字段: email
 
-## Known Issues
-
-## Release Notes
-
-### 关于
+## 关于
 
 本项目修改自[DengSir/template-generator-vscode](https://github.com/DengSir/template-generator-vscode/blob/master/LICENSE.md)开源项目.
