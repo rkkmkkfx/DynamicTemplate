@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - 完善自带模板的更新问题
 
-## 0.0.6 - 2018-03-08
+## [0.0.6] - 2018-03-08
 
 ### Added
 
@@ -20,13 +20,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - 扩展说明文档整理修改
 - 模板说明文档整理修改
 
-## 0.0.5 - 2018-03-07
+## [0.0.5] - 2018-03-07
 
 ### Changed
 
 - GameEvent模板调用后自动打开文件
 
-## 0.0.4 - 2018-03-07
+## [0.0.4] - 2018-03-07
 
 ### Fixed
 
@@ -34,7 +34,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - 修复对话框模板生成失败问题
 - 修复同一行内多个存在模板字段时生成失败问题
 
-## 0.0.3 - 2018-03-07
+## [0.0.3] - 2018-03-07
 
 ### Added
 
@@ -50,13 +50,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - 移除参考模板
 
-## 0.0.2 - 2018-03-06
+## [0.0.2] - 2018-03-06
 
 ### Added
 
 - 添加参考模板
 
-## 0.0.1 - 2018-03-06
+## [0.0.1] - 2018-03-06
 
 ### Added
 
