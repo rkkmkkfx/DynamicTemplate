@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 
 - 完善自带模板的更新问题
+- 模板调用后显示提示信息
 
 ## [0.0.6] - 2018-03-08
 
