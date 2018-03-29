@@ -63,6 +63,10 @@ export class Fields {
         return new Date().toLocaleString();
     }
 
+    public get time():string {
+        return new Date().toLocaleTimeString();
+    }
+
     public get author(): string {
         return this.config.get('fields.author');
     }
