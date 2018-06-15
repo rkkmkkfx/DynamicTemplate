@@ -1,43 +1,43 @@
 # DynamicTemplate
 
-这个扩展用于根据模板命令快速自动执行添加插入操作, 编辑生成常用代码和文件.
+This extension is used to quickly and automatically perform an insert operation based on a template command, editing and generating common code and files.
 
-## 功能
+## Features
 
-* 根据模板添加文件
-* 往文件指定位置插入内容
-* 打开指定文件
-* 模板内容可包含任意自定义变量并在执行时提示输入
-* 根据设置的标记自动转化字段显示格式
+* Add files based on the template
+* Insert content into a file at a specified location
+* Open the specified file
+* Template content can contain any custom variable and prompt for input during execution
+* Automatic conversion field display format according to the set flag
 
-## 可选命令
+## Optional command
 
-### - 打开模板文件夹
+### - Open Template Folder
 
-* <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd>打开命令输入框
-* 输入并选择命令`Template: Open Temlates Folder`
-* 确认后编辑器会用新的窗口打开模板文件夹
+* `ctrl`+`shift`+`p` Open command input box
+* Enter and select the command `Template: Open Temlates Folder`
+* After confirming that the editor will open the template folder with a new window
 
-### - 调用模板命令
+### - Call Template Commands
 
-* <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd>打开命令输入框
-* 输入并选择命令`Files: Auto Run Template Command`
-* 选择调用的模板文件
-* 根据提示的模板字段名, 逐个输入模板字段相应的替代内容
-* 最后按回车确认, 程序会调用模板自动生成相应的代码和文件
+* `ctrl`+`shift`+`p` Open command input box
+* Enter and select the command `Files: Auto Run Template Command`
+* Select the calling template file
+* According to the suggested template field name, enter the corresponding alternate content of the template field one by one
+* Finally press Enter to confirm, the program will call the template to automatically generate the corresponding code and file
 
-## 模板
+## Template
 
-* [模板说明](https://github.com/seawait/DTTemplates/blob/master/README.md)
-* [模板参考](https://github.com/seawait/DTTemplates/blob/master/TEMPLATES.md)
-* [模板项目](https://github.com/seawait/DTTemplates)
+* [Template Explained] (https://github.com/seawait/DTTemplates/blob/master/README.md)
+* [Template Reference] (https://github.com/seawait/DTTemplates/blob/master/TEMPLATES.md)
+* [Template Project] (https://github.com/seawait/DTTemplates)
 
-## 配置
+## Configuration
 
-* `templateGenerator.templatesPath` : 模板保存位置
-* `templateGenerator.fields.author` : 配置author字段
-* `templateGenerator.fields.email` : 配置email字段
+* `templateGenerator.templatesPath` : Template save location
+* `templateGenerator.fields.author` : Configure author field
+* `templateGenerator.fields.email` : Configure email fields
 
-## 关于
+## About
 
-本项目修改自[DengSir/template-generator-vscode](https://github.com/DengSir/template-generator-vscode/blob/master/LICENSE.md)开源项目.
+This project was modified from the [DengSir/template-generator-vscode](https://github.com/DengSir/template-generator-vscode/blob/master/LICENSE.md) open source project.

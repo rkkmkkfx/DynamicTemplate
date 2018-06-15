@@ -54,7 +54,7 @@ export class InputController {
             for(let key in p){
                 if(f[key] === undefined && conf.get('fields.' + key) === undefined){
                     p[key] = await vscode.window.showInputBox({
-                        placeHolder: '请输入模板参数[' + key + ']的值:',
+                        placeHolder: 'Please enter the value of the template parameter [' + key + ']:',
                     })
                 }
             }

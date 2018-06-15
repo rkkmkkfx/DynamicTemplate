@@ -3,87 +3,87 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
-and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+And this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
 ### Added
 
-- 模板调用后显示提示信息
-- 模板环境增加项目文件夹可选项参数
-- 模板环境增加项目文件可选项参数
-- 模板环境增加动态导入项的插入参数
-- 添加新建类模板
-- 添加新建接口模板
-- 添加新建枚举模板
-- 添加新建model模板
-- 添加新建service模板
-- 添加新建工具类模板
-- 添加新建Socket接口模板
-- 支持可选项
+- Display prompt message after template call
+- Template environment adds project folder options parameters
+- Template environment adds project file options
+- Template environment adds insertion parameters for dynamic import items
+- Add new class template
+- Add new interface template
+- Add new enumeration template
+- Add new model template
+- Add new service template
+- Add new tool class template
+- Add New Socket Interface Template
+- Support optional
 
 ### Changed
 
-- 完善自带模板的更新问题
-- 模板命令分类修改
+- Improving the issue of updating templates
+- Template command classification changes
 
 ### Fixed
 
-- 修复中途取消仍生成代码问题
-- 修复输入空字符仍生成代码问题
+- Fix canceled code still generating code problem
+- Fixed code problem with input null character still generated
 
 ## [0.0.6] - 2018-03-08
 
 ### Added
 
-- 添加模板参数说明文档
+- Add template parameter description document
 
 ### Changed
 
-- 扩展说明文档整理修改
-- 模板说明文档整理修改
+- Extended description document organizes changes
+- Template description document finishing modification
 
 ## [0.0.5] - 2018-03-07
 
 ### Changed
 
-- GameEvent模板调用后自动打开文件
+- Automatically open files after calling GameEvent template
 
 ## [0.0.4] - 2018-03-07
 
 ### Fixed
 
-- 修复GameEvent模板格式问题
-- 修复对话框模板生成失败问题
-- 修复同一行内多个存在模板字段时生成失败问题
+- Fixed issue with GameEvent template format
+- Repair dialog box template generation failed
+- Generate failure when repairing multiple existing template fields in the same row
 
 ## [0.0.3] - 2018-03-07
 
 ### Added
 
-- 添加新建GameEvent模板
-- 添加新建对话框模板
-- 添加新建命令模板
+- Add New GameEvent Template
+- Add new dialog template
+- Add new command template
 
 ### Changed
 
-- 规范模板文件命名格式为`{__ACMD__.label}.dyt`
+- Specification template file naming format is `{__ACMD__.label}.dyt`
 
 ### Removed
 
-- 移除参考模板
+- Remove reference template
 
 ## [0.0.2] - 2018-03-06
 
 ### Added
 
-- 添加参考模板
+- Add reference template
 
 ## [0.0.1] - 2018-03-06
 
 ### Added
 
-- 初始化版本
+- Initialization version
 
 [Unreleased]: https://github.com/seawait/DynamicTemplate/compare/v0.0.6...HEAD
 [0.0.6]: https://github.com/seawait/DynamicTemplate/compare/v0.0.5...v0.0.6

@@ -40,7 +40,7 @@ export class TemplateFile {
                 mkdirp.sync(path.dirname(p));
                 if(fs.existsSync(p)){
                     let tempName:string = p + '.tmp'+ (Math.random()*100000>>0);
-                    console.log(`文件${p}已存在,将自动备份文件${tempName}并覆盖`);
+                    console.log(`The file ${p} already exists, the file ${tempName} will be automatically backed up and overwritten`);
                     util.copyFile(p, tempName);
                 }
                 fs.writeFileSync(p, util.convertM(content.shift(), tp));
@@ -58,7 +58,7 @@ export class TemplateFile {
                     }
                     fs.writeFileSync(p, tf);
                 }else{
-                    console.log(`文件${p}不存在,插件操作失败`);
+                    console.log(`File ${p} does not exist, plugin operation failed`);
                 }
                 while(content.length > 0){
                     if(empty.test(c))break;
